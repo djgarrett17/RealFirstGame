@@ -1,0 +1,191 @@
+html,
+body{
+    margin: 0;
+    /* padding: 0; */
+    height: 100%;
+    /* overflow: hidden; */
+  
+}
+button {
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    /* font-family: "Lato", sans-serif; */
+    font-size: 18pt;
+    border: 1px solid lightblue;
+    color: lightblue;
+  }
+  .youlose{
+    position: absolute;
+    top: 60px;
+    color: transparent;
+    margin-left: 23%;
+  }
+/* .pagecontainer{ */
+    /* background-image: url(./DevinImages/Screen\ Shot\ 2019-08-23\ at\ 4.35.23\ PM.png); */
+    /* background: rgb(149, 235, 235);
+    background-size: 100% 100%;
+    min-width: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+
+    "c c c c c c"
+    "c c c c c c"
+    "c c c c c c"
+    "c c c c c c"
+    "c c c c c c"
+    "c c c c c c";
+ 
+}
+
+.instructions{
+    position: absolute;
+}
+
+.snow{ */
+    /* grid-area: c; */
+    /* position: absolute; */
+    /* border: 1px solid lightcyan;
+    border-radius: 20%;
+    height: 1200px;
+    width: 1200px; */
+    /* height: 1200px;
+    width: 1200px; */
+    /* background-color: whitesmoke; */
+    /* left: 40px; */
+    /* position:absolute; */
+    /* top:0;
+    left:0;
+    background-image: linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -o-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -moz-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -webkit-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -ms-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(105,173,212)),
+        color-stop(0.84, rgb(23,82,145))
+    ); */
+/* } */
+
+body{margin:0;height:100%;}
+
+.instructions{
+    position: absolute;
+    cursor: pointer;
+    color: lightblue;
+    margin-top: 30px;
+    margin-left: 5px;
+    
+    
+}
+.warning{
+    position: absolute;
+    cursor: pointer;
+    margin-top: 50px;
+    color: lightblue;
+    margin-left: 5px;
+    
+}
+.stopitt{
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    color: lightblue;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.startitt{
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    left: 5%;
+    color: lightblue;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+.character{
+    position: absolute;
+    left: 45%;
+    margin-top: 570px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid pink;
+    border-radius: 20%;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 40s; 
+}
+
+@-webkit-keyframes blackWhite {  
+  0% { border-color: rgb(204, 143, 255); }
+  3% { border-color: rgb(204, 143, 255); }
+  6% { border-color: rgb(155, 128, 255); }
+  9% { border-color: rgb(155, 128, 255); }
+  12% { border-color: rgb(98, 95, 255); }
+  15% { border-color: rgb(98, 95, 255); }
+  18% { border-color: rgb(82, 151, 255); }
+  21% { border-color: rgb(82, 151, 255); }
+  24% { border-color: rgb(93, 182, 255); }
+  27% { border-color: rgb(93, 182, 255); }
+  30% { border-color: rgb(95, 255, 228); }
+  33% { border-color: rgb(95, 255, 228); }
+  36% { border-color: rgb(77, 250, 143); }
+  39% { border-color: rgb(77, 250, 143); }
+  42% { border-color: rgb(147, 255, 58); }
+  45% { border-color: rgb(147, 255, 58); }
+  48% { border-color: rgb(189, 250, 77); }
+  51% { border-color: rgb(189, 250, 77); }
+  54% { border-color: rgb(244, 255, 87); }
+  57% { border-color: rgb(244, 255, 87); }
+  60% { border-color: rgb(255, 216, 87); }
+  63% { border-color: rgb(255, 216, 87); }
+  66% { border-color: rgb(255, 181, 71); }
+  69% { border-color: rgb(255, 181, 71); }
+  72% { border-color: rgb(255, 154, 87); }
+  75% { border-color: rgb(255, 154, 87); }
+  78% { border-color: rgb(255, 121, 87); }
+  81% { border-color: rgb(255, 121, 87); }
+  84% { border-color: rgb(255, 98, 98); }
+  87% { border-color: rgb(255, 98, 98); }
+  90% { border-color: rgb(253, 101, 185); }
+  93% { border-color: rgb(253, 101, 185); }
+  96% { border-color: rgb(255, 136, 215); }
+  98% { border-color: rgb(255, 136, 215); }
+  100% { border-color: rgb(204, 143, 255); }
+}
+
+canvas{
+    position:absolute;
+    top:0;
+    left:0;
+    background-image: linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    /* background-image: -o-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -moz-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -webkit-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%);
+    background-image: -ms-linear-gradient(bottom, rgb(105,173,212) 0%, rgb(23,82,145) 84%); */
+    
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(105,173,212)),
+        color-stop(0.84, rgb(23,82,145))
+    );
+}
+
+
+
+
